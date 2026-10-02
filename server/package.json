@@ -1,0 +1,17 @@
+{
+  "name": "bookmark-manager-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "express": "^5.1.0",
+    "ipaddr.js": "^2.2.0",
+    "parse5": "^7.3.0"
+  }
+}
